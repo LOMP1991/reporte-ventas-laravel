@@ -66,6 +66,9 @@ cp .env.example .env
 # Generar clave de aplicación
 php artisan key:generate
 
+#Migrar las tablas necesaria
+php artisan migrate
+
 # Limpiar caché
 php artisan config:clear
 php artisan cache:clear
