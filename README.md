@@ -21,7 +21,7 @@ Sistema de reportes interactivos con gráficos y exportación a PDF.
 ### 1. Clonar el Repositorio
 ```bash
 # Clonar el proyecto
-git clone https://github.com/TU_USUARIO/reporte-ventas-laravel.git
+git clone https://github.com/LOMP1991/reporte-ventas-laravel.git
 
 # Entrar al directorio
 cd reporte-ventas-laravel
