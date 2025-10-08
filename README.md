@@ -12,9 +12,35 @@ Sistema de reportes interactivos con gráficos y exportación a PDF.
 
 ## 🔧 Requisitos
 
-- PHP 8.1 o superior
-- Composer
-- XAMPP (opcional pero recomendado)
+## 🔧 Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado:
+
+- **XAMPP** (incluye Apache, MySQL y PHP)
+- **PHP 8.1 o superior** (incluido en XAMPP)
+- **Composer** (gestor de dependencias de PHP)
+- **Git** (para clonar el repositorio)
+
+## 📦 Instalación
+
+### Paso 0: Instalar Composer (si no lo tienes)
+
+**Windows:**
+1. Descarga el instalador: https://getcomposer.org/Composer-Setup.exe
+2. Ejecuta el instalador
+3. Cuando te pida la ruta de PHP, selecciona: `C:\xampp\php\php.exe`
+4. Completa la instalación
+5. **Reinicia tu terminal/CMD/Git Bash**
+6. Verifica la instalación:
+```bash
+   composer --version
+
+Linux/Mac:
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+sudo mv composer.phar /usr/local/bin/composer
+php -r "unlink('composer-setup.php');"
+composer --version
 
 ## 📦 Instalación
 
