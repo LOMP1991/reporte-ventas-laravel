@@ -132,20 +132,10 @@ DB_DATABASE=nombre_base_datos
 DB_USERNAME=root
 DB_PASSWORD=
 
-2. Crear migración:
-bashphp artisan make:migration create_sales_table
-3. Modificar el método getSalesData() en ReportController.php:
-phpprivate function getSalesData($startDate, $endDate)
-{
-    return Sale::whereBetween('date', [$startDate, $endDate])
-                ->orderBy('date', 'desc')
-                ->get();
-}
+
 🐛 Solución de Problemas
-Error: "Class 'Pdf' not found"
-bashcomposer require barryvdh/laravel-dompdf
+Database file at path [C:\xampp\htdocs\Prueba\reporte-ventas-laravel\database\database.sqlite] does not exist: "php artisan migrate"
 php artisan config:clear
-Error: "View not found"
 bashphp artisan view:clear
 php artisan cache:clear
 Puerto 8000 ocupado
